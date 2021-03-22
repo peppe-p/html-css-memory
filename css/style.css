@@ -25,7 +25,7 @@ h1 {
 }
 h2 {
     font-size: 2rem;
-    text-shadow:2px 2px lightgrey;
+    text-shadow:2px 2px 1px gray;
 }
     h2.airballoon {
         color: deeppink;
@@ -33,10 +33,29 @@ h2 {
     h2.tractor {
         color: orange;
     }
+    h2.bicycle {
+        color: green;
+    }
+    h2.ship {
+        color: darkorchid;
+    }
+    h2.submarine {
+        color: dodgerblue;
+    }
+    h2.tram {
+        color: red;
+    }
+h3 {
+    font-size: 1.5rem;
+}
 img {
     width: 180px;
     height: 180px;
 }
+footer{
+    text-align: center;
+}
+
 /* ############################### */
 /* ##### CLASSES ELEMENTS ##### */
 .game_board {
