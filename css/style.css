@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* ##### COMMON CSS ELEMENTS ##### */
+body {
+    font-family: 'Nerko One', cursive;
+    background-color: #add8e6;
+}
+header {
+    text-align: center;
+}
+h1 {
+    color: white;
+    font-size: 5rem;
+    text-shadow:2px 2px gray;
+}
+h2 {
+    font-size: 2rem;
+    text-shadow:2px 2px lightgrey;
+}
+    h2.airballoon {
+        color: deeppink;
+    }
+    h2.tractor {
+        color: orange;
+    }
+img {
+    width: 180px;
+    height: 180px;
+}
+/* ############################### */
+/* ##### CLASSES ELEMENTS ##### */
+.game_board {
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+}
+
+.row {
+    width: 100%;
+    background-color: lawngreen;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    margin: 5px 10px;
+    border-radius: 15px;
+    background-color: white;
+}
