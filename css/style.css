@@ -59,7 +59,7 @@ footer{
 /* ############################### */
 /* ##### CLASSES ELEMENTS ##### */
 .game_board {
-    width: 70%;
+    width: 80%;
     height: auto;
     margin: 20px auto;
 }
@@ -77,6 +77,7 @@ footer{
     border-radius: 15px;
     background-color: white;
     box-shadow: 1px 1px 4px gray;
+    padding: 20px
 }
 .cover_card {
     background-image: url("../img/pattern.png");
