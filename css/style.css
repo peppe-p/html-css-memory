@@ -21,7 +21,7 @@ header {
 h1 {
     color: white;
     font-size: 5rem;
-    text-shadow:2px 2px gray;
+    text-shadow:2px 2px 3px gray;
 }
 h2 {
     font-size: 2rem;
@@ -47,13 +47,29 @@ img {
 
 .row {
     width: 100%;
-    background-color: lawngreen;
     text-align: center;
+    margin: 40px 0px;
 }
 
 .card {
+    position: relative;
     display: inline-block;
-    margin: 5px 10px;
+    margin: 0px 10px;
     border-radius: 15px;
     background-color: white;
+    box-shadow: 1px 1px 4px gray;
 }
+.cover_card {
+    background-image: url("../img/pattern.png");
+    background-size: contain;
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    content: "";
+    display: block;
+}
+    .card:hover .cover_card {
+        display: none;
+    }
